@@ -1,4 +1,4 @@
-FROM circleci/golang
+FROM circleci/golang:1.8
 MAINTAINER senbazuru
 
 RUN curl https://glide.sh/get | sh
